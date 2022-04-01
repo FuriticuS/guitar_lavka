@@ -30,7 +30,7 @@ header {
     align-items: center;
     width: 100%;
     height: 25px;
-    padding: 10px 35px;
+    padding: 10px 15px;
     border-bottom: 1px solid #242424;
 }
 
@@ -70,6 +70,7 @@ header {
 .header_top_contacts_phone {
     display: flex;
     flex-direction: row;
+    font-size: 14px;
 }
 
 .header_top_contacts_phone a {
@@ -85,39 +86,53 @@ header {
 .header_top_contacts_phone a img {
     margin-right: 10px;
 }
+.header_top_contacts_timework{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 8px;
+    padding: 5px;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+}
+.header_top_contacts_timework span{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8px;
+
+}
 
 /*_______________________________________________________________________________________*/
 
 .header_main {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    margin-left: 150px;
-    width: 1100px;
-    height: 230px;
+    
 }
 
 .header_main_search {
-    position: absolute;
-    width: 75px;
-    height: 30px;
-    left: 189px;
-    top: 107px;
+    display: flex;
+    flex-direction: row;
     color: #FFFFFF;
 }
 
 .header_main_search form {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 30px;
     color: #FFFFFF;
     opacity: 10%;
 
 }
 
 #search {
-    display: block;
-    position: absolute;
-    left: -30px;
-    top: 2px;
-
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
 }
 
 .header_main_img {
