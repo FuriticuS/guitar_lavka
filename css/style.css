@@ -110,15 +110,17 @@ header {
 
 .header_main {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
+    flex-direction: row;  
+    justify-content: space-around;
 }
 
 .header_main_search {
-    display: flex;
-    flex-direction: row;
+   display: block;
     color: #FFFFFF;
+    margin-top: 110px;
+    margin-left: 20px;
+
+
 }
 
 .header_main_search form {
@@ -137,18 +139,20 @@ header {
     align-items: center;
     color: #fff;
 }
-
-.header_main_img {
-    display: flex;
-    margin: auto;
+    
 
 }
-
 .header_main_navigation {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 170px;
+    
+}
+
+.header_main_img {
+    display: block;
+    margin: 0 auto;
 }
 
 .header_main_nav a {
